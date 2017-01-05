@@ -53,5 +53,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     init.target.rc
 
-
+ifeq ($(VNAI_GAPPS),true)
 $(call inherit-product-if-exists, vendor/vnai/opengapps.mk)
+endif
