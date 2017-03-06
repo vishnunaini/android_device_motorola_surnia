@@ -48,4 +48,6 @@
         <item>15</item>
     </integer-array>
 
+    <!-- Whether to enable HumanInteractionController by default -->
+    <bool name="config_HICEnabledDefault">false</bool>
 </resources>
